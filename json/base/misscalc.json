@@ -1,0 +1,237 @@
+{
+ "ccl1": {
+  "code": "ccl1",
+  "*description": "The client CltCalc1 field value",
+  "lineNumber": 43
+ },
+ "cd12": {
+  "code": "cd12",
+  "*description": "((110 * lvl) * (cpa2 - cpa1)) / (100 * (lvl + 6)) + cpa1",
+  "lineNumber": 34
+ },
+ "cd34": {
+  "code": "cd34",
+  "*description": "((110 * lvl) * (cpa4 - cpa3)) / (100 * (lvl + 6)) + cpa3",
+  "lineNumber": 36
+ },
+ "chd1": {
+  "code": "chd1",
+  "*description": "((110 * lvl) * (chp2 - chp1)) / (100 * (lvl + 6)) + chp1",
+  "lineNumber": 40
+ },
+ "chl1": {
+  "code": "chl1",
+  "*description": "chp1 + (lvl - 1) * chp2",
+  "lineNumber": 39
+ },
+ "chp1": {
+  "code": "chp1",
+  "*description": "The cHitPar1 field value",
+  "lineNumber": 13
+ },
+ "chp2": {
+  "code": "chp2",
+  "*description": "The cHitPar2 field value",
+  "lineNumber": 14
+ },
+ "chp3": {
+  "code": "chp3",
+  "*description": "The cHitPar3 field value",
+  "lineNumber": 15
+ },
+ "cl12": {
+  "code": "cl12",
+  "*description": "cpa1 + (lvl - 1) * cpa2",
+  "lineNumber": 33
+ },
+ "cl34": {
+  "code": "cl34",
+  "*description": "cpa3 + (lvl - 1) * cpa4",
+  "lineNumber": 35
+ },
+ "cpa1": {
+  "code": "cpa1",
+  "*description": "The CltParam1 field value",
+  "lineNumber": 5
+ },
+ "cpa2": {
+  "code": "cpa2",
+  "*description": "The CltParam2 field value",
+  "lineNumber": 6
+ },
+ "cpa3": {
+  "code": "cpa3",
+  "*description": "The CltParam3 field value",
+  "lineNumber": 7
+ },
+ "cpa4": {
+  "code": "cpa4",
+  "*description": "The CltParam4 field value",
+  "lineNumber": 8
+ },
+ "cpa5": {
+  "code": "cpa5",
+  "*description": "The CltParam5 field value",
+  "lineNumber": 9
+ },
+ "damn": {
+  "code": "damn",
+  "*description": "Physical Damage Min",
+  "lineNumber": 24
+ },
+ "damx": {
+  "code": "damx",
+  "*description": "Physical Damage Max",
+  "lineNumber": 25
+ },
+ "dd12": {
+  "code": "dd12",
+  "*description": "((110 * lvl) * (dpa2 - dpa1)) / (100 * (lvl + 6)) + dpa1",
+  "lineNumber": 42
+ },
+ "dl12": {
+  "code": "dl12",
+  "*description": "dpa1 + (lvl - 1) * dpa2",
+  "lineNumber": 41
+ },
+ "dmns": {
+  "code": "dmns",
+  "*description": "Physical Damage Min (256ths)",
+  "lineNumber": 26
+ },
+ "dmxs": {
+  "code": "dmxs",
+  "*description": "Physical Damage Max (256ths)",
+  "lineNumber": 27
+ },
+ "dpa1": {
+  "code": "dpa1",
+  "*description": "The dParam1 field value",
+  "lineNumber": 16
+ },
+ "dpa2": {
+  "code": "dpa2",
+  "*description": "The dParam2 field value",
+  "lineNumber": 17
+ },
+ "edln": {
+  "code": "edln",
+  "*description": "Elemental Damage Length",
+  "lineNumber": 21
+ },
+ "edmn": {
+  "code": "edmn",
+  "*description": "Elemental Damage Min",
+  "lineNumber": 19
+ },
+ "edmx": {
+  "code": "edmx",
+  "*description": "Elemental Damage Max",
+  "lineNumber": 20
+ },
+ "edns": {
+  "code": "edns",
+  "*description": "Elemental Damage Min (256ths)",
+  "lineNumber": 22
+ },
+ "edxs": {
+  "code": "edxs",
+  "*description": "Elemental Damage Max (256ths)",
+  "lineNumber": 23
+ },
+ "fnum": {
+  "code": "fnum",
+  "*description": "The current Missile frame number",
+  "lineNumber": 46
+ },
+ "hpa1": {
+  "code": "hpa1",
+  "*description": "The sHitPar1 field value",
+  "lineNumber": 10
+ },
+ "hpa2": {
+  "code": "hpa2",
+  "*description": "The sHitPar2 field value",
+  "lineNumber": 11
+ },
+ "hpa3": {
+  "code": "hpa3",
+  "*description": "The sHitPar3 field value",
+  "lineNumber": 12
+ },
+ "lvl": {
+  "code": "lvl",
+  "*description": "The current Missile Level",
+  "lineNumber": 18
+ },
+ "par1": {
+  "code": "par1",
+  "*description": "The Param1 field value",
+  "lineNumber": 0
+ },
+ "par2": {
+  "code": "par2",
+  "*description": "The Param2 field value",
+  "lineNumber": 1
+ },
+ "par3": {
+  "code": "par3",
+  "*description": "The Param3 field value",
+  "lineNumber": 2
+ },
+ "par4": {
+  "code": "par4",
+  "*description": "The Param4 field value",
+  "lineNumber": 3
+ },
+ "par5": {
+  "code": "par5",
+  "*description": "The Param5 field value",
+  "lineNumber": 4
+ },
+ "rad": {
+  "code": "rad",
+  "*description": "The Radius field value",
+  "lineNumber": 45
+ },
+ "rang": {
+  "code": "rang",
+  "*description": "The Range field value",
+  "lineNumber": 28
+ },
+ "scl1": {
+  "code": "scl1",
+  "*description": "The server SrvCalc1 field value",
+  "lineNumber": 44
+ },
+ "sd12": {
+  "code": "sd12",
+  "*description": "((110 * lvl) * (par2 - par1)) / (100 * (lvl + 6)) + par1",
+  "lineNumber": 30
+ },
+ "sd34": {
+  "code": "sd34",
+  "*description": "((110 * lvl) * (par4 - par3)) / (100 * (lvl + 6)) + par3",
+  "lineNumber": 32
+ },
+ "shd1": {
+  "code": "shd1",
+  "*description": "((110 * lvl) * (hpa2 - hpa1)) / (100 * (lvl + 6)) + hpa1",
+  "lineNumber": 38
+ },
+ "shl1": {
+  "code": "shl1",
+  "*description": "hpa1 + (lvl - 1) * hpa2",
+  "lineNumber": 37
+ },
+ "sl12": {
+  "code": "sl12",
+  "*description": "par1 + (lvl - 1) * par2",
+  "lineNumber": 29
+ },
+ "sl34": {
+  "code": "sl34",
+  "*description": "par3 + (lvl - 1) * par4",
+  "lineNumber": 31
+ }
+}

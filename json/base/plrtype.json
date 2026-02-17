@@ -1,0 +1,45 @@
+{
+ "AI": {
+  "Name": "Assassin",
+  "Token": "AI",
+  "expansion": 1,
+  "lineNumber": 7
+ },
+ "AM": {
+  "Name": "Amazon",
+  "Token": "AM",
+  "lineNumber": 0
+ },
+ "BA": {
+  "Name": "Barbarian",
+  "Token": "BA",
+  "lineNumber": 4
+ },
+ "DZ": {
+  "Name": "Druid",
+  "Token": "DZ",
+  "expansion": 1,
+  "lineNumber": 6
+ },
+ "NE": {
+  "Name": "Necromancer",
+  "Token": "NE",
+  "lineNumber": 2
+ },
+ "PA": {
+  "Name": "Paladin",
+  "Token": "PA",
+  "lineNumber": 3
+ },
+ "SO": {
+  "Name": "Sorceress",
+  "Token": "SO",
+  "lineNumber": 1
+ },
+ "WK": {
+  "Name": "Warlock",
+  "Token": "WK",
+  "expansion": 1,
+  "lineNumber": 8
+ }
+}

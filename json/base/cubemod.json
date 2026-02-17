@@ -1,0 +1,57 @@
+{
+ "ame": {
+  "cube modifier type": "amethyst",
+  "Code": "ame",
+  "lineNumber": 1
+ },
+ "crf": {
+  "cube modifier type": "crafted",
+  "Code": "crf",
+  "lineNumber": 11
+ },
+ "dim": {
+  "cube modifier type": "diamond",
+  "Code": "dim",
+  "lineNumber": 6
+ },
+ "eme": {
+  "cube modifier type": "emerald",
+  "Code": "eme",
+  "lineNumber": 5
+ },
+ "mag": {
+  "cube modifier type": "magic",
+  "Code": "mag",
+  "lineNumber": 8
+ },
+ "rar": {
+  "cube modifier type": "rare",
+  "Code": "rar",
+  "lineNumber": 9
+ },
+ "rub": {
+  "cube modifier type": "ruby",
+  "Code": "rub",
+  "lineNumber": 2
+ },
+ "sap": {
+  "cube modifier type": "sapphire",
+  "Code": "sap",
+  "lineNumber": 3
+ },
+ "sku": {
+  "cube modifier type": "skull",
+  "Code": "sku",
+  "lineNumber": 7
+ },
+ "top": {
+  "cube modifier type": "topaz",
+  "Code": "top",
+  "lineNumber": 4
+ },
+ "unq": {
+  "cube modifier type": "unique",
+  "Code": "unq",
+  "lineNumber": 10
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "Tome of Identify": {
+  "Name": "Tome of Identify",
+  "ScrollSpellCode": "isc",
+  "BookSpellCode": "ibk",
+  "pSpell": 1,
+  "SpellIcon": 0,
+  "ScrollSkill": "Scroll of Identify",
+  "BookSkill": "Book of Identify",
+  "BaseCost": 200,
+  "CostPerCharge": 40,
+  "lineNumber": 1
+ },
+ "Tome of Resurrect": {
+  "Name": "Tome of Resurrect",
+  "pSpell": -1,
+  "SpellIcon": -1,
+  "BaseCost": 500,
+  "CostPerCharge": 100,
+  "lineNumber": 2
+ },
+ "Tome of Town Portal": {
+  "Name": "Tome of Town Portal",
+  "ScrollSpellCode": "tsc",
+  "BookSpellCode": "tbk",
+  "pSpell": 2,
+  "SpellIcon": -1,
+  "ScrollSkill": "Scroll of Townportal",
+  "BookSkill": "Book of Townportal",
+  "BaseCost": 250,
+  "CostPerCharge": 50,
+  "lineNumber": 0
+ }
+}

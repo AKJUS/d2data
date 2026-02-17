@@ -1,0 +1,107 @@
+{
+ "blac": {
+  "Transform Color": "Black",
+  "Code": "blac",
+  "lineNumber": 3
+ },
+ "bwht": {
+  "Transform Color": "Bright White",
+  "Code": "bwht",
+  "lineNumber": 20
+ },
+ "cblu": {
+  "Transform Color": "Crystal Blue",
+  "Code": "cblu",
+  "lineNumber": 6
+ },
+ "cgrn": {
+  "Transform Color": "Crystal Green",
+  "Code": "cgrn",
+  "lineNumber": 12
+ },
+ "cred": {
+  "Transform Color": "Crystal Red",
+  "Code": "cred",
+  "lineNumber": 9
+ },
+ "dblu": {
+  "Transform Color": "Dark Blue",
+  "Code": "dblu",
+  "lineNumber": 5
+ },
+ "dgld": {
+  "Transform Color": "Dark Gold",
+  "Code": "dgld",
+  "lineNumber": 16
+ },
+ "dgrn": {
+  "Transform Color": "Dark Green",
+  "Code": "dgrn",
+  "lineNumber": 11
+ },
+ "dgry": {
+  "Transform Color": "Dark Grey",
+  "Code": "dgry",
+  "lineNumber": 2
+ },
+ "dpur": {
+  "Transform Color": "Dark Purple",
+  "Code": "dpur",
+  "lineNumber": 18
+ },
+ "dred": {
+  "Transform Color": "Dark Red",
+  "Code": "dred",
+  "lineNumber": 8
+ },
+ "dyel": {
+  "Transform Color": "Dark Yellow",
+  "Code": "dyel",
+  "lineNumber": 14
+ },
+ "lblu": {
+  "Transform Color": "Light Blue",
+  "Code": "lblu",
+  "lineNumber": 4
+ },
+ "lgld": {
+  "Transform Color": "Light Gold",
+  "Code": "lgld",
+  "lineNumber": 15
+ },
+ "lgrn": {
+  "Transform Color": "Light Green",
+  "Code": "lgrn",
+  "lineNumber": 10
+ },
+ "lgry": {
+  "Transform Color": "Light Grey",
+  "Code": "lgry",
+  "lineNumber": 1
+ },
+ "lpur": {
+  "Transform Color": "Light Purple",
+  "Code": "lpur",
+  "lineNumber": 17
+ },
+ "lred": {
+  "Transform Color": "Light Red",
+  "Code": "lred",
+  "lineNumber": 7
+ },
+ "lyel": {
+  "Transform Color": "Light Yellow",
+  "Code": "lyel",
+  "lineNumber": 13
+ },
+ "oran": {
+  "Transform Color": "Orange",
+  "Code": "oran",
+  "lineNumber": 19
+ },
+ "whit": {
+  "Transform Color": "White",
+  "Code": "whit",
+  "lineNumber": 0
+ }
+}

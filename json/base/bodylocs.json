@@ -1,0 +1,52 @@
+{
+ "belt": {
+  "Body Location": "Belt",
+  "Code": "belt",
+  "lineNumber": 8
+ },
+ "feet": {
+  "Body Location": "Feet",
+  "Code": "feet",
+  "lineNumber": 9
+ },
+ "glov": {
+  "Body Location": "Gloves",
+  "Code": "glov",
+  "lineNumber": 10
+ },
+ "head": {
+  "Body Location": "Head",
+  "Code": "head",
+  "lineNumber": 1
+ },
+ "larm": {
+  "Body Location": "Left Arm",
+  "Code": "larm",
+  "lineNumber": 5
+ },
+ "lrin": {
+  "Body Location": "Left Ring",
+  "Code": "lrin",
+  "lineNumber": 7
+ },
+ "neck": {
+  "Body Location": "Neck",
+  "Code": "neck",
+  "lineNumber": 2
+ },
+ "rarm": {
+  "Body Location": "Right Arm",
+  "Code": "rarm",
+  "lineNumber": 4
+ },
+ "rrin": {
+  "Body Location": "Right Ring",
+  "Code": "rrin",
+  "lineNumber": 6
+ },
+ "tors": {
+  "Body Location": "Torso",
+  "Code": "tors",
+  "lineNumber": 3
+ }
+}

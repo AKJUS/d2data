@@ -1,0 +1,607 @@
+{
+ "ast1": {
+  "code": "ast1",
+  "*Description": "The aurastatcalc1 field value",
+  "lineNumber": 60
+ },
+ "ast2": {
+  "code": "ast2",
+  "*Description": "The aurastatcalc2 field value",
+  "lineNumber": 61
+ },
+ "ast3": {
+  "code": "ast3",
+  "*Description": "The aurastatcalc3 field value",
+  "lineNumber": 62
+ },
+ "ast4": {
+  "code": "ast4",
+  "*Description": "The aurastatcalc4 field value",
+  "lineNumber": 63
+ },
+ "ast5": {
+  "code": "ast5",
+  "*Description": "The aurastatcalc5 field value",
+  "lineNumber": 64
+ },
+ "ast6": {
+  "code": "ast6",
+  "*Description": "The aurastatcalc6 field value",
+  "lineNumber": 65
+ },
+ "blvl": {
+  "code": "blvl",
+  "*Description": "The base Skill Level (without bonuses)",
+  "lineNumber": 41
+ },
+ "clc0": {
+  "code": "clc0",
+  "*Description": "The calc10 field value",
+  "lineNumber": 104
+ },
+ "clc1": {
+  "code": "clc1",
+  "*Description": "The calc1 field value",
+  "lineNumber": 55
+ },
+ "clc2": {
+  "code": "clc2",
+  "*Description": "The calc2 field value",
+  "lineNumber": 56
+ },
+ "clc3": {
+  "code": "clc3",
+  "*Description": "The calc3 field value",
+  "lineNumber": 57
+ },
+ "clc4": {
+  "code": "clc4",
+  "*Description": "The calc4 field value",
+  "lineNumber": 58
+ },
+ "clc5": {
+  "code": "clc5",
+  "*Description": "The calc5 field value",
+  "lineNumber": 88
+ },
+ "clc6": {
+  "code": "clc6",
+  "*Description": "The calc6 field value",
+  "lineNumber": 89
+ },
+ "clc7": {
+  "code": "clc7",
+  "*Description": "The calc7 field value",
+  "lineNumber": 101
+ },
+ "clc8": {
+  "code": "clc8",
+  "*Description": "The calc8 field value",
+  "lineNumber": 102
+ },
+ "clc9": {
+  "code": "clc9",
+  "*Description": "The calc9 field value",
+  "lineNumber": 103
+ },
+ "dm12": {
+  "code": "dm12",
+  "*Description": "((110 * lvl) * (par2 - par1)) / (100 * (lvl + 6)) + par1",
+  "lineNumber": 1
+ },
+ "dm21": {
+  "code": "dm21",
+  "*Description": "((110 * lvl) * (pa12 - pa11)) / (100 * (lvl + 6)) + pa11",
+  "lineNumber": 87
+ },
+ "dm34": {
+  "code": "dm34",
+  "*Description": "((110 * lvl) * (par4 - par3)) / (100 * (lvl + 6)) + par3",
+  "lineNumber": 3
+ },
+ "dm43": {
+  "code": "dm43",
+  "*Description": "((110 * lvl) * (pa14 - pa13)) / (100 * (lvl + 6)) + pa13",
+  "lineNumber": 117
+ },
+ "dm56": {
+  "code": "dm56",
+  "*Description": "((110 * lvl) * (par6 - par5)) / (100 * (lvl + 6)) + par5",
+  "lineNumber": 5
+ },
+ "dm65": {
+  "code": "dm65",
+  "*Description": "((110 * lvl) * (pa16 - pa15)) / (100 * (lvl + 6)) + pa15",
+  "lineNumber": 118
+ },
+ "dm78": {
+  "code": "dm78",
+  "*Description": "((110 * lvl) * (par8 - par7)) / (100 * (lvl + 6)) + par7",
+  "lineNumber": 7
+ },
+ "dm87": {
+  "code": "dm87",
+  "*Description": "((110 * lvl) * (pa18 - pa17)) / (100 * (lvl + 6)) + pa17",
+  "lineNumber": 119
+ },
+ "dm91": {
+  "code": "dm91",
+  "*Description": "((110 * lvl) * (pa10 - par9)) / (100 * (lvl + 6)) + par9",
+  "lineNumber": 85
+ },
+ "dm92": {
+  "code": "dm92",
+  "*Description": "((110 * lvl) * (pa20 - pa19)) / (100 * (lvl + 6)) + pa19",
+  "lineNumber": 120
+ },
+ "edln": {
+  "code": "edln",
+  "*Description": "Elemental Damage Length",
+  "lineNumber": 19
+ },
+ "edma": {
+  "code": "edma",
+  "*Description": "Elemental Damage Length with Elemental Mastery",
+  "lineNumber": 51
+ },
+ "edmn": {
+  "code": "edmn",
+  "*Description": "Elemental Damage Min",
+  "lineNumber": 17
+ },
+ "edmx": {
+  "code": "edmx",
+  "*Description": "Elemental Damage Max",
+  "lineNumber": 18
+ },
+ "edns": {
+  "code": "edns",
+  "*Description": "Elemental Damage Min (256ths)",
+  "lineNumber": 38
+ },
+ "edxs": {
+  "code": "edxs",
+  "*Description": "Elemental Damage Max (256ths)",
+  "lineNumber": 39
+ },
+ "enma": {
+  "code": "enma",
+  "*Description": "Elemental Damage Min with Elemental Mastery",
+  "lineNumber": 49
+ },
+ "enms": {
+  "code": "enms",
+  "*Description": "Elemental Damage Min with Elemental Mastery (256ths)",
+  "lineNumber": 52
+ },
+ "exma": {
+  "code": "exma",
+  "*Description": "Elemental Damage Max with Elemental Mastery",
+  "lineNumber": 50
+ },
+ "exms": {
+  "code": "exms",
+  "*Description": "Elemental Damage Max with Elemental Mastery (256ths)",
+  "lineNumber": 53
+ },
+ "len": {
+  "code": "len",
+  "*Description": "The auralencalc field value",
+  "lineNumber": 54
+ },
+ "ln12": {
+  "code": "ln12",
+  "*Description": "par1 + (lvl - 1) * par2",
+  "lineNumber": 0
+ },
+ "ln21": {
+  "code": "ln21",
+  "*Description": "pa11 + (lvl - 1) * pa12",
+  "lineNumber": 86
+ },
+ "ln34": {
+  "code": "ln34",
+  "*Description": "par3 + (lvl - 1) * par4",
+  "lineNumber": 2
+ },
+ "ln43": {
+  "code": "ln43",
+  "*Description": "pa13 + (lvl - 1) * pa14",
+  "lineNumber": 113
+ },
+ "ln56": {
+  "code": "ln56",
+  "*Description": "par5 + (lvl - 1) * par6",
+  "lineNumber": 4
+ },
+ "ln65": {
+  "code": "ln65",
+  "*Description": "pa15 + (lvl - 1) * pa16",
+  "lineNumber": 114
+ },
+ "ln78": {
+  "code": "ln78",
+  "*Description": "par7 + (lvl - 1) * par8",
+  "lineNumber": 6
+ },
+ "ln87": {
+  "code": "ln87",
+  "*Description": "pa17 + (lvl - 1) * pa18",
+  "lineNumber": 115
+ },
+ "ln91": {
+  "code": "ln91",
+  "*Description": "par9 + (lvl - 1) * pa10",
+  "lineNumber": 84
+ },
+ "ln92": {
+  "code": "ln92",
+  "*Description": "pa19 + (lvl - 1) * pa20",
+  "lineNumber": 116
+ },
+ "lvl": {
+  "code": "lvl",
+  "*Description": "The current Skill Level (with bonuses)",
+  "lineNumber": 16
+ },
+ "m1el": {
+  "code": "m1el",
+  "*Description": "Elemental Damage Length for skilldesc descmissile1",
+  "lineNumber": 28
+ },
+ "m1en": {
+  "code": "m1en",
+  "*Description": "Elemental Damage Min for skilldesc descmissile1",
+  "lineNumber": 26
+ },
+ "m1eo": {
+  "code": "m1eo",
+  "*Description": "Elemental Damage Min for skilldesc descmissile1 (256ths)",
+  "lineNumber": 43
+ },
+ "m1ex": {
+  "code": "m1ex",
+  "*Description": "Elemental Damage Max for skilldesc descmissile1",
+  "lineNumber": 27
+ },
+ "m1ey": {
+  "code": "m1ey",
+  "*Description": "Elemental Damage Max for skilldesc descmissile1 (256ths)",
+  "lineNumber": 44
+ },
+ "m1rn": {
+  "code": "m1rn",
+  "*Description": "Range for skilldesc descmissile1",
+  "lineNumber": 35
+ },
+ "m2el": {
+  "code": "m2el",
+  "*Description": "Elemental Damage Length for skilldesc descmissile2",
+  "lineNumber": 31
+ },
+ "m2en": {
+  "code": "m2en",
+  "*Description": "Elemental Damage Min for skilldesc descmissile2",
+  "lineNumber": 29
+ },
+ "m2eo": {
+  "code": "m2eo",
+  "*Description": "Elemental Damage Min for skilldesc descmissile2 (256ths)",
+  "lineNumber": 45
+ },
+ "m2ex": {
+  "code": "m2ex",
+  "*Description": "Elemental Damage Max for skilldesc descmissile2",
+  "lineNumber": 30
+ },
+ "m2ey": {
+  "code": "m2ey",
+  "*Description": "Elemental Damage Max for skilldesc descmissile2 (256ths)",
+  "lineNumber": 46
+ },
+ "m2rn": {
+  "code": "m2rn",
+  "*Description": "Range for skilldesc descmissile2",
+  "lineNumber": 36
+ },
+ "m3el": {
+  "code": "m3el",
+  "*Description": "Elemental Damage Length for skilldesc descmissile3",
+  "lineNumber": 34
+ },
+ "m3en": {
+  "code": "m3en",
+  "*Description": "Elemental Damage Min for skilldesc descmissile3",
+  "lineNumber": 32
+ },
+ "m3ex": {
+  "code": "m3ex",
+  "*Description": "Elemental Damage Max for skilldesc descmissile3",
+  "lineNumber": 33
+ },
+ "m3rn": {
+  "code": "m3rn",
+  "*Description": "Range for skilldesc descmissile3",
+  "lineNumber": 37
+ },
+ "macr": {
+  "code": "macr",
+  "*Description": "Critical Hit Mastery",
+  "lineNumber": 25
+ },
+ "madm": {
+  "code": "madm",
+  "*Description": "Physical Damage Mastery",
+  "lineNumber": 24
+ },
+ "mael": {
+  "code": "mael",
+  "*Description": "Elemental Damage Mastery",
+  "lineNumber": 77
+ },
+ "mair": {
+  "code": "mair",
+  "*Description": "Item Requirements Mastery",
+  "lineNumber": 99
+ },
+ "mana": {
+  "code": "mana",
+  "*Description": "Mana Cost Calculation",
+  "lineNumber": 21
+ },
+ "manc": {
+  "code": "manc",
+  "*Description": "Throwing No Consume Mastery",
+  "lineNumber": 79
+ },
+ "mapi": {
+  "code": "mapi",
+  "*Description": "Throwing Pierce Mastery",
+  "lineNumber": 78
+ },
+ "math": {
+  "code": "math",
+  "*Description": "Attack Rating (ToHit) Mastery",
+  "lineNumber": 23
+ },
+ "me3o": {
+  "code": "me3o",
+  "*Description": "Elemental Damage Min for skilldesc descmissile3 (256ths)",
+  "lineNumber": 47
+ },
+ "me3y": {
+  "code": "me3y",
+  "*Description": "Elemental Damage Max for skilldesc descmissile3 (256ths)",
+  "lineNumber": 48
+ },
+ "mps": {
+  "code": "mps",
+  "*Description": "Mana Cost Per Second Calculation",
+  "lineNumber": 22
+ },
+ "pa10": {
+  "code": "pa10",
+  "*Description": "The Param10 field value",
+  "lineNumber": 81
+ },
+ "pa11": {
+  "code": "pa11",
+  "*Description": "The Param11 field value",
+  "lineNumber": 82
+ },
+ "pa12": {
+  "code": "pa12",
+  "*Description": "The Param12 field value",
+  "lineNumber": 83
+ },
+ "pa13": {
+  "code": "pa13",
+  "*Description": "The Param13 field value",
+  "lineNumber": 105
+ },
+ "pa14": {
+  "code": "pa14",
+  "*Description": "The Param14 field value",
+  "lineNumber": 106
+ },
+ "pa15": {
+  "code": "pa15",
+  "*Description": "The Param15 field value",
+  "lineNumber": 107
+ },
+ "pa16": {
+  "code": "pa16",
+  "*Description": "The Param16 field value",
+  "lineNumber": 108
+ },
+ "pa17": {
+  "code": "pa17",
+  "*Description": "The Param17 field value",
+  "lineNumber": 109
+ },
+ "pa18": {
+  "code": "pa18",
+  "*Description": "The Param18 field value",
+  "lineNumber": 110
+ },
+ "pa19": {
+  "code": "pa19",
+  "*Description": "The Param19 field value",
+  "lineNumber": 111
+ },
+ "pa20": {
+  "code": "pa20",
+  "*Description": "The Param20 field value",
+  "lineNumber": 112
+ },
+ "par1": {
+  "code": "par1",
+  "*Description": "The Param1 field value",
+  "lineNumber": 8
+ },
+ "par2": {
+  "code": "par2",
+  "*Description": "The Param2 field value",
+  "lineNumber": 9
+ },
+ "par3": {
+  "code": "par3",
+  "*Description": "The Param3 field value",
+  "lineNumber": 10
+ },
+ "par4": {
+  "code": "par4",
+  "*Description": "The Param4 field value",
+  "lineNumber": 11
+ },
+ "par5": {
+  "code": "par5",
+  "*Description": "The Param5 field value",
+  "lineNumber": 12
+ },
+ "par6": {
+  "code": "par6",
+  "*Description": "The Param6 field value",
+  "lineNumber": 13
+ },
+ "par7": {
+  "code": "par7",
+  "*Description": "The Param7 field value",
+  "lineNumber": 14
+ },
+ "par8": {
+  "code": "par8",
+  "*Description": "The Param8 field value",
+  "lineNumber": 15
+ },
+ "par9": {
+  "code": "par9",
+  "*Description": "The Param9 field value",
+  "lineNumber": 80
+ },
+ "pets": {
+  "code": "pets",
+  "*Description": "The petmax field value",
+  "lineNumber": 71
+ },
+ "pnma": {
+  "code": "pnma",
+  "*Description": "Physical Damage Min (Skill Only)",
+  "lineNumber": 73
+ },
+ "pnms": {
+  "code": "pnms",
+  "*Description": "Physical Damage Min (Skill Only) (256ths)",
+  "lineNumber": 75
+ },
+ "ps10": {
+  "code": "ps10",
+  "*Description": "The passivecalc10 field value",
+  "lineNumber": 94
+ },
+ "ps11": {
+  "code": "ps11",
+  "*Description": "The passivecalc11 field value",
+  "lineNumber": 95
+ },
+ "ps12": {
+  "code": "ps12",
+  "*Description": "The passivecalc12 field value",
+  "lineNumber": 96
+ },
+ "ps13": {
+  "code": "ps13",
+  "*Description": "The passivecalc13 field value",
+  "lineNumber": 97
+ },
+ "ps14": {
+  "code": "ps14",
+  "*Description": "The passivecalc14 field value",
+  "lineNumber": 98
+ },
+ "pst1": {
+  "code": "pst1",
+  "*Description": "The passivecalc1 field value",
+  "lineNumber": 66
+ },
+ "pst2": {
+  "code": "pst2",
+  "*Description": "The passivecalc2 field value",
+  "lineNumber": 67
+ },
+ "pst3": {
+  "code": "pst3",
+  "*Description": "The passivecalc3 field value",
+  "lineNumber": 68
+ },
+ "pst4": {
+  "code": "pst4",
+  "*Description": "The passivecalc4 field value",
+  "lineNumber": 69
+ },
+ "pst5": {
+  "code": "pst5",
+  "*Description": "The passivecalc5 field value",
+  "lineNumber": 70
+ },
+ "pst6": {
+  "code": "pst6",
+  "*Description": "The passivecalc6 field value",
+  "lineNumber": 90
+ },
+ "pst7": {
+  "code": "pst7",
+  "*Description": "The passivecalc7 field value",
+  "lineNumber": 91
+ },
+ "pst8": {
+  "code": "pst8",
+  "*Description": "The passivecalc8 field value",
+  "lineNumber": 92
+ },
+ "pst9": {
+  "code": "pst9",
+  "*Description": "The passivecalc9 field value",
+  "lineNumber": 93
+ },
+ "pxma": {
+  "code": "pxma",
+  "*Description": "Physical Damage Max (Skill Only)",
+  "lineNumber": 74
+ },
+ "pxms": {
+  "code": "pxms",
+  "*Description": "Physical Damage Max (Skill Only) (256ths)",
+  "lineNumber": 76
+ },
+ "rng": {
+  "code": "rng",
+  "*Description": "The aurarangecalc field value",
+  "lineNumber": 59
+ },
+ "sctk": {
+  "code": "sctk",
+  "*Description": "Skill Channeling Tick",
+  "lineNumber": 100
+ },
+ "skpt": {
+  "code": "skpt",
+  "*Description": "The skpoints field value",
+  "lineNumber": 72
+ },
+ "toht": {
+  "code": "toht",
+  "*Description": "Attack Rating Bonus (ToHit) Calculation",
+  "lineNumber": 20
+ },
+ "ulvl": {
+  "code": "ulvl",
+  "*Description": "The caster unit's current Level",
+  "lineNumber": 40
+ },
+ "usmc": {
+  "code": "usmc",
+  "*Description": "Mana Cost (256ths)",
+  "lineNumber": 42
+ }
+}

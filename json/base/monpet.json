@@ -1,0 +1,28 @@
+{
+ "act2hire": {
+  "monster": "act2hire",
+  "*index": 338,
+  "lineNumber": 1
+ },
+ "act3hire": {
+  "monster": "act3hire",
+  "*index": 359,
+  "lineNumber": 2
+ },
+ "act5hire1": {
+  "monster": "act5hire1",
+  "*index": 560,
+  "lineNumber": 3
+ },
+ "act5hire2": {
+  "monster": "act5hire2",
+  "*index": 561,
+  "lineNumber": 4
+ },
+ "roguehire": {
+  "monster": "roguehire",
+  "*index": 271,
+  "hirelingAlternateVoice": 1,
+  "lineNumber": 0
+ }
+}
