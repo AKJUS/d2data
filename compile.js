@@ -860,6 +860,14 @@ const fs = require('fs');
       let tc = tcprecalc[key], total = 0;
   
       for (let subtc in tc.counts) {
+        if (
+          subtc in items &&
+          !(subtc in tcprecalc) &&
+          items[subtc].spawnable
+        ) {
+          continue;
+        }
+
         total += tc.counts[subtc] * totalTC(subtc, debug);
       }
   
