@@ -862,10 +862,11 @@ const fs = require('fs');
       for (let subtc in tc.counts) {
         if (
           subtc in items &&
-          !(subtc in tcprecalc) &&
-          items[subtc].spawnable
+          !(subtc in tcprecalc)
         ) {
-          continue;
+          if (!items[subtc].spawnable) {
+            continue;
+          }
         }
 
         total += tc.counts[subtc] * totalTC(subtc, debug);
@@ -885,6 +886,7 @@ const fs = require('fs');
     };
   
     if (total > 6) {
+      console.log('Normalizing TC', key, 'with total', total, 'picks');
       for (let exp in tc.droprateRoot) {
         tc.droprateRoot[exp] = tc.droprateRoot[exp] * 6 / total;
       }
