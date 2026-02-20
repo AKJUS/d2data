@@ -301,7 +301,7 @@ foreach ([
 
     foreach ($index as $tc_name => $filename) {
       $variable = $module_map[$tc_name] = "json$i";
-      $module .= "import $variable from './$filename';\n";
+      $module .= "import $variable from './$filename' with { type: 'json' };\n";
       $i++;
     }
 
