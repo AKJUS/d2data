@@ -287,7 +287,7 @@ foreach ([
         throw new Exception("File $filepath already exists");
       }
 
-      file_put_contents($filepath, json_encode($precalc[$tc_name], JSON_PRETTY_PRINT));
+      file_put_contents($filepath, json_encode($precalc[$tc_name], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE));
     }
   }
 
