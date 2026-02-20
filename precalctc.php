@@ -226,6 +226,7 @@ foreach ([
   'json/precalctc/' => [TREASURECLASSEX, ATOMIC],
   'json/base/precalctc/' => [TREASURECLASSEXBASE, ATOMICBASE],
 ] as $basepath => [$treasureclassex, $atomic]) {
+  print("Generating $basepath\n");
   $files = glob($basepath . '*.json');
 
   foreach ($files as $file) {
@@ -292,5 +293,26 @@ foreach ([
 
   if ($index) {
     file_put_contents($basepath . '_index.json', json_encode($index, JSON_PRETTY_PRINT));
+
+    $module = '';
+    $module_map = [];
+
+    $i = 1;
+
+    foreach ($index as $tc_name => $filename) {
+      $variable = $module_map[$tc_name] = "json$i";
+      $module .= "import $variable from './$filename';\n";
+      $i++;
+    }
+
+    $module .= "\nexport default {\n";
+
+    foreach ($module_map as $tc_name => $variable) {
+      $module .= "  '$tc_name': $variable,\n";
+    }
+
+    $module .= "}\n";
+
+    file_put_contents($basepath . '_all.mjs', $module);
   }
 }
