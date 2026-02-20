@@ -2,7 +2,7 @@ const monpopulationest = require('./json/monpopulationest.json');
 const superuniques = require('./json/superuniques.json');
 const monstats = require('./json/monstats.json');
 const levels = require('./json/levels.json');
-const localestrings = require('./json/localestrings-eng.json');
+const localestrings = require('./json/allstrings-eng.json');
 const fs = require('fs');
 
 let diffs = ['', '(N)', '(H)'];
